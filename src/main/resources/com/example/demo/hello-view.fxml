@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #e2d5ff, #d0c0ff);" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <children>
+        <!-- Tax Calculation Header -->
+        <Label layoutX="200.0" layoutY="30.0" style="-fx-font-size: 30; -fx-font-family: 'Arial Rounded MT Bold';" text="Tax calculation" textFill="white" />
+        <Label layoutX="160.0" layoutY="70.0" style="-fx-font-size: 14; -fx-font-family: 'Arial';" text="Get the left ta ex calification you ares you tax caltiation." textFill="#ffffff" />
+
+        <!-- Inputs and Results Section -->
+        <Label layoutX="52.0" layoutY="134.0" style="-fx-font-size: 16; -fx-font-family: Arial;" text="Username:" />
+        <TextField fx:id="usernameField" layoutX="143.0" layoutY="131.0" prefWidth="150.0" promptText="Enter username" style="-fx-background-radius: 15;" />
+
+        <Label layoutX="53.0" layoutY="180.0" style="-fx-font-size: 16; -fx-font-family: Arial;" text="Password:" />
+        <TextField fx:id="passwordField" layoutX="143.0" layoutY="177.0" prefWidth="150.0" promptText="Enter password" style="-fx-background-radius: 15;" />
+
+        <Label layoutX="56.0" layoutY="287.0" style="-fx-font-size: 16; -fx-font-family: Arial;" text="Taxable income:" />
+        <TextField fx:id="camkdrtField" layoutX="40.0" layoutY="314.0" prefWidth="150.0" promptText="6,900" style="-fx-background-radius: 15;" />
+
+        <Label layoutX="243.0" layoutY="287.0" style="-fx-font-size: 16; -fx-font-family: Arial;" text="Amount of Income:" />
+        <TextField fx:id="salesDoolsField" layoutX="235.0" layoutY="314.0" prefWidth="150.0" promptText="00,300" style="-fx-background-radius: 15;" />
+
+        <Label layoutX="469.0" layoutY="287.0" style="-fx-font-size: 16; -fx-font-family: Arial;" text="Indicator:" />
+        <TextField fx:id="resultingsField" layoutX="427.0" layoutY="314.0" prefWidth="150.0" promptText="500.00" style="-fx-background-radius: 15;" />
+
+        <!-- Button -->
+        <Button fx:id="calculateButton" layoutX="243.0" layoutY="352.0" mnemonicParsing="false" style="-fx-background-color: #ff5ca4; -fx-background-radius: 20; -fx-font-size: 18; -fx-font-family: Arial;" text="Calculate Tax" textFill="white" />
+
+        <!-- Role Input Section -->
+        <Label layoutX="53.0" layoutY="222.0" style="-fx-font-size: 16; -fx-font-family: Arial;" text="Role:" />
+        <TextField fx:id="roleField" layoutX="143.0" layoutY="219.0" prefWidth="150.0" promptText="Enter role" style="-fx-background-radius: 15;" />
+    </children>
+</AnchorPane>
