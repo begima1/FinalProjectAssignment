@@ -1,6 +1,3 @@
-Конечно! Вот более подробная версия файла `README.md`:
-
----
 
 # Tax Management System
 
