@@ -153,3 +153,7 @@ Before running the application, ensure that the following prerequisites are met:
 - **Tax Calculation Enhancements**: Implement more complex tax calculation logic with different tax brackets and deduction options.
 - **Error Handling**: Improve error handling with more specific error messages and validation on the inputs.
 - **Internationalization**: Support for multiple languages to allow non-English users to interact with the system.
+
+
+https://gamma.app/docs/Tax-Management-System-qc4z2aix1pdnioj - link to ourpresentation
+https://docs.google.com/document/d/1CGz_pJsAvNwJ2e6DHDSWACt1BzKuPqBurlLp25aOUrs/edit?usp=sharing - link to our documentation.
